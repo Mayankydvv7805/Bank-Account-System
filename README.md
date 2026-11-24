@@ -44,7 +44,8 @@ Project Structure
     └── test
         └── scala
             └── bank
-                └── BankSpec.scala               # munit test suite (47 comprehensive tests)
+                └── BankSpec.scala
+# munit test suite (47 comprehensive tests)
 Core Architecture & Design Decisions
 1. Domain Model & Immutability
 Arbitrary-Precision Currency: All monetary amounts (balance, amount, overdraftLimit) are modeled strictly with scala.math.BigDecimal. Floating-point types (Double, Float) are strictly forbidden to eliminate rounding errors.
