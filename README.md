@@ -1,5 +1,4 @@
 # Bank-Account-System
-Bank Account System
 A complete, production-grade, functional-leaning Bank Account System built entirely in Scala 3 using sbt and munit.
 
 Table of Contents
