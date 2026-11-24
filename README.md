@@ -11,6 +11,7 @@ Core Architecture & Design Decisions
 4. Custom Exceptions Hierarchy
 5. Dual API: Pure Functional Either & Throwing Variant
 6. Atomic Transfer Guarantee
+.
 How to Build, Test, and Run
 Prerequisites
 Compilation
@@ -45,6 +46,7 @@ Project Structure
         └── scala
             └── bank
                 └── BankSpec.scala
+   .
 # munit test suite (47 comprehensive tests)
 Core Architecture & Design Decisions
 1. Domain Model & Immutability
